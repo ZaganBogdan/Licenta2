@@ -1,0 +1,10 @@
+.profile-container {
+    max-width: 600px;
+    margin: 5px;
+  }
+  .user-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+  }

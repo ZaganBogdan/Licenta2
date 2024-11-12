@@ -1,0 +1,33 @@
+.left-content .btn {
+    color: black; 
+  }
+  
+  .left-content{
+    margin-right: 40px; 
+    width: 20%;
+  }
+   .right-content {
+    width: 10%;
+  }
+  
+  .main-content {
+    min-width: 400px;
+    height: 100%;
+    width: 80%;
+    margin-left: 180px;
+    border-left: 2px black solid ;
+    border-right: 2px black solid ;
+  
+  }
+  .router-link-active {
+    background-color: green; 
+    color: white;
+    text: white;
+  }
+  
+  .custom-router-link {
+    width: 200px; 
+    height: 50px; 
+    display: inline-block; 
+    text-align: left;
+  }

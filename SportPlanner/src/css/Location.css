@@ -1,0 +1,71 @@
+.location-container {
+    display: flex;
+    flex-direction: column;
+  }
+.location-list {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .location-item {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .location-header {
+    display: flex; /* Use flexbox for easy alignment */
+    align-items: center;
+}
+
+.location-details {
+    margin-right: 15px;
+    width: 400px;
+}
+
+.location-image {
+    width: 200px; 
+    height: 130px;
+    object-fit: cover; 
+    border-radius: 5px;
+}
+  
+  .location-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+  }
+
+  
+  .location-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .location-info label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .location-info span {
+    color: #333;
+  }
+  
+  .location-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .actions button {
+    padding: 8px 20px;
+    font-size: 1rem;
+    background-color: green;
+  }

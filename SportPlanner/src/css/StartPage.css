@@ -1,0 +1,47 @@
+
+.content {
+  display: flex;
+  margin-top: 180px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.spacer {
+  flex-grow: 4;
+}
+
+.main-content {
+  flex-grow: 3; /* Div-ul din mijloc va fi de trei ori mai mare decât celelalte */
+  display: flex;
+}
+.title-container {
+  flex: 1; /* Ocupă spațiul disponibil din container */
+  margin-right: 20px; /* Spațiu între "title-container" și "start-image" */
+}
+
+.title-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.start-image {
+  width: 500px; /* sau orice dimensiune dorești */
+  height: auto;
+}
+
+.bottom-button {
+  width: 250px;
+  height: 60px;
+  margin-top: 25px;
+  padding: 12px 24px;
+  background-color: rgb(19, 134, 19); /* sau orice culoare dorești */
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}
+.bottom-button:hover {
+  transform: scale(1.05);
+}
+

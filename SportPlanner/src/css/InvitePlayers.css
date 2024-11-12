@@ -1,0 +1,51 @@
+.search-bar,
+.filter-position {
+  margin-bottom: 10px;
+}
+
+.user-card {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+.user-card .user-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-card .user-info {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.user-card .action-buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.user-card .action-buttons button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.user-card .action-buttons button:hover {
+  background-color: darkgreen;
+}
+
+.user-card .action-buttons .cancel-btn {
+  background-color: red;
+}
+
+.user-card .action-buttons .cancel-btn:hover {
+  background-color: darkred;
+}
